@@ -7,8 +7,8 @@ public class Beneficioanual {
 	public static void main(String[] args) {
 		double peras;
 		double manzanas;
-		double precioperas;
-		double preciomanzanas;
+		final double precioperas;
+		final double preciomanzanas;
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Kilos de peras al año: ");
